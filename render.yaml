@@ -10,16 +10,16 @@ services:
       - key: PORT
         value: 10000
       - key: REDIS_URL
-        sync: false
+        value: redis://red-d2nmi2i4d50c73b55n5g:6379
       - key: SMTP_HOST
-        sync: false
+        value: smtp.laposte.net
       - key: SMTP_PORT
         value: 587
       - key: SMTP_SECURE
         value: "false"
       - key: SMTP_USER
-        sync: false
+        value: jean-marie.tremblay
       - key: SMTP_PASS
-        sync: false
+        value: vegve7-qogduv-zycGod
       - key: SMTP_FROM
         value: "sms@yourdomain.tld"
